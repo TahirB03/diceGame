@@ -1,0 +1,39 @@
+body{
+    background-color:  #35353F;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+#winnerMessage{
+    text-align: center;
+    color: #45C398;
+    font-size: 48px;
+}
+#player {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+#player1,#player2{
+    color: #45C398;
+    display: flex;
+    flex-direction: column;
+}
+#playAgain{
+    outline: none;
+    margin: 75px auto;
+    border-radius: 10px;
+    border:1px green solid;
+}
+button:active{
+    transform: translateY(2px);
+    box-shadow: 0 10 0.2 black;
+}
